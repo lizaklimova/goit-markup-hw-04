@@ -430,7 +430,7 @@ img {
 .customers-link:hover,
 .customers-link:focus {
   color: var(--customers-logo-hover);
-  border-color: var(--customers-border-color);
+  border-color: var(--customers-border-hover-color);
 }
 
 .customers-link {
