@@ -431,6 +431,10 @@ img {
   margin-right: 120px;
 }
 
+.footer-logo-container {
+  margin-right: 120px;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -457,15 +461,14 @@ img {
   margin-bottom: 16px;
 }
 
-.footer-container {
-  display: flex;
-}
-
 .footer-media-container {
   margin-left: 120px;
 }
 
 .footer-media-text {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
   color: var(--white-for-project);
 }
 .footer-media-list {
