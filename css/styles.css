@@ -427,6 +427,7 @@ img {
 }
 
 .footer-container {
+  display: flex;
   align-items: baseline;
   margin-right: 120px;
 }
@@ -599,8 +600,9 @@ img {
   transform: translateY(100%);
   transition: transform var(--transition);
 }
-.categories-link:hover .categories-cover-text,
-.categories-link:hover .categories-cover-text {
+
+.categories-link:hover.categories-cover-text,
+.categories-link:focus.categories-cover-text {
   transform: translateY(0%);
 }
 /* MODAL WINDOW */
